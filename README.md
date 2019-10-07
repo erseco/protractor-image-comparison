@@ -14,20 +14,20 @@ protractor-image-comparison
 
 You can:
 
-- save or compare screens / elements against a baseline
-- save or compare a fullpage screenshot against a baseline (**desktop AND mobile are now supported**)
-- automatically create a baseline when no baseline is there
-- disable css animations by default
-- ignore anti-aliasing differences
-- compare images by ignoring their colors (do a grayscale comparison)
-- blockout custom regions during comparison (all)
-- ignore regions by making them transparent in the base image (all) thanks to [tharders](https://github.com/tharders)
-- parameter to hide / show scrollbars [pnad](https://github.com/pnad)
-- increase the element dimenisions screenshots (all)
-- provide custom iOS and Android offsets for status-/address-/toolbar (mobile only)
-- automatically exclude a statusbar during screencomparison (mobile only)
-- taking a screenshot directly from canvas, tnx to [tuomas2](https://github.com/tuomas2), see [here](https://github.com/wswebcreation/protractor-image-comparison/blob/master/docs/index.md#saveelementelement-tag-options--promise). **!!This isn't supported in IE11 and Safari 9!!**
-- use a tolerance property called `saveAboveTolerance` that prevents saving result image to diff folder, tnx to [IgorSasovets](https://github.com/IgorSasovets )**
+- Save or compare screens / elements against a baseline
+- Save or compare a fullpage screenshot against a baseline (**desktop AND mobile are now supported**)
+- Automatically create a baseline when no baseline is there
+- Disable css animations by default
+- Ignore anti-aliasing differences
+- Compare images by ignoring their colors (do a grayscale comparison)
+- Blockout custom regions during comparison (all)
+- Ignore regions by making them transparent in the base image (all) thanks to [tharders](https://github.com/tharders)
+- Parameter to hide / show scrollbars [pnad](https://github.com/pnad)
+- Increase the element dimenisions screenshots (all)
+- Provide custom iOS and Android offsets for status-/address-/toolbar (mobile only)
+- Automatically exclude a statusbar during screencomparison (mobile only)
+- Taking a screenshot directly from canvas, tnx to [tuomas2](https://github.com/tuomas2), see [here](https://github.com/wswebcreation/protractor-image-comparison/blob/master/docs/index.md#saveelementelement-tag-options--promise). **!!This isn't supported in IE11 and Safari 9!!**
+- Use a tolerance property called `saveAboveTolerance` that prevents saving result image to diff folder, tnx to [IgorSasovets](https://github.com/IgorSasovets )**
 - **NEW**, more accurate comparison with 2 new methods called `ignoreLess` and `ignoreNothing`. These 2 methods compare with different `red, green, blue, alpha, minBrightness and maxBrightness`
 - **NEW**, more accurate percentage. In previous releases the mismatch was with max with 2 digits. With `rawMisMatchPercentage:true`, you can have a result like `0.69803221`
 
@@ -50,8 +50,8 @@ npm install --save-dev protractor-image-comparison
 ## Usage
 *protractor-image-comparison* can be used for:
 
-- desktop browsers (Chrome / Firefox / Safari / Internet Explorer 11 / Microsoft Edge)
-- mobile / tablet browsers (Chrome / Safari on emulators / real devices) via Appium
+- Desktop browsers (Chrome / Firefox / Safari / Internet Explorer 11 / Microsoft Edge)
+- Mobile / tablet browsers (Chrome / Safari on emulators / real devices) via Appium
 - Hybrid apps via Appium
 
 For more information about mobile testing see the [Appium](./docs/appium.md) documentation.
